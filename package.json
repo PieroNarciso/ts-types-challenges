@@ -12,5 +12,8 @@
   "devDependencies": {
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
   }
 }

@@ -1,8 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@type-challenges/utils': ^0.1.1
   tsx: ^3.12.7
   typescript: ^5.0.4
+
+dependencies:
+  '@type-challenges/utils': 0.1.1
 
 devDependencies:
   tsx: 3.12.7
@@ -228,6 +232,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@type-challenges/utils/0.1.1:
+    resolution: {integrity: sha512-A7ljYfBM+FLw+NDyuYvGBJiCEV9c0lPWEAdzfOAkb3JFqfLl0Iv/WhWMMARHiRKlmmiD1g8gz/507yVvHdQUYA==}
+    dev: false
 
   /buffer-from/1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
