@@ -23,7 +23,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type MyReturnType<T extends (...args: any[]) => any> = T extends (
+type MyReturnType<T extends Function> = T extends (
   ...any: any[]
 ) => infer S
   ? S
